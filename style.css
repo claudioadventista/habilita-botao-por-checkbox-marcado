@@ -1,0 +1,111 @@
+*{
+				margin:0;
+				padding:0;
+			}
+
+			body {
+				font-family: Helvetica, Arial, sans-serif;
+				background:#F2F2F2;
+				text-transform: uppercase;
+				text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+				font-weight: bold;
+				letter-spacing:2px;
+				
+			}
+
+			a{
+				text-decoration: none;
+				color: black;
+			}
+
+			input[type='checkbox']{
+				zoom:1.7;
+				margin-top:5px;
+			}
+
+			h3{
+				text-align: center;
+				padding:10px 0;
+				background: #ebd409;
+
+
+			}
+
+			.but{ 
+				border:1px solid #ccc;
+				border-radius:3px;
+				font-size: 12px;
+				padding:5px;
+				font-family: arial, helvetica, sans-serif;
+				text-decoration: none;
+				text-transform: uppercase;
+				text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.302);
+				font-weight: bold;
+				letter-spacing:2px;
+				background: #E6E6E6;
+				cursor:pointer;
+				margin-left:5px;
+			}
+
+			.but:hover{
+				background: #ddd;
+			}
+
+			.contagem{
+				position:relative;
+				top:20px;
+				width:700px;
+				margin:0 auto;
+				border:5px solid #d88;
+				padding: 10px 10px 35px 10px;
+				border-radius: 5px;
+				
+			}
+
+			.retornarMarcados{
+				opacity:0.2;
+				pointer-events:none;
+			}
+
+			.checkbox{
+				position: relative;
+				top:20px;
+				background: #fff;
+				border:1px solid #aaa;
+				border-radius: 5px;
+				padding:10px;
+				width:95%;
+				margin:0 auto;
+			}
+
+			.check{
+				position: relative;
+				top:-6px;
+				margin-left:10px;
+			}
+
+			.botao-retornar{
+				position: relative;
+				margin:0 auto;
+			}
+
+			.submit{
+				display:none;
+			}
+			th{
+				color:darkred;
+				background-color: #abcdef;
+				padding:8px;
+			}
+			td{
+				padding-left: 10px;
+			}
+			.id{
+				width:7%;
+			}
+			.nome{
+				width:78%;
+			}
+			.funcao{
+				width:15%;
+			}
